@@ -1,17 +1,10 @@
-public class Osoba {
-    public String imie;
-    public  String nazwisko;
-
-    public Osoba(String imie, String nazwisko, int wiek) {
-        this.imie = imie;
-        this.nazwisko = nazwisko;
-        this.wiek = wiek;
+public class Main {
+    public static void main(String[] args) {
+        Osoba osoba =new Osoba("Jaś", "Stokrotka");
+        System.out.println(osoba.getImie());
+        System.out.println(osoba.getNazwisko());
+        System.out.println(osoba.getWiek());
+        osoba.setImie("Jan");
+        System.out.println(osoba.getImie());
     }
-
-    public int wiek;
-
-
-
-
-
 }
