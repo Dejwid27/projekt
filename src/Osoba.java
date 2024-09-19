@@ -49,8 +49,17 @@ public class Osoba {
             this.imie = imie;
         }
         else {
-            this.imie = imie;
+            System.out.println("odmowa dostepu");;
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Osoba: " +
+                "imie='" + imie + '\'' +
+                ", nazwisko='" + nazwisko + '\'' +
+                ", wiek=" + wiek +
+                ',';
     }
 }
 
