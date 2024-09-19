@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
-public class Osoba {
+public abstract class Osoba {
+    /*
+    z klasy abstrakcyjnej nie mozna ztrobic obiketu sluzy do dziedziczenia
+     */
     private String imie;
     private String nazwisko;
     private int wiek;
